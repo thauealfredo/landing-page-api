@@ -16,6 +16,11 @@
       "component": "page.questions",
       "required": true,
       "min": 2
+    },
+    "extraQuestion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.extra-question"
     }
   }
 }
